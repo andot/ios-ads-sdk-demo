@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  BannerAdViewController.h
 //  SDKDemo
 //
 //  Created by 马秉尧 on 2019/9/25.
@@ -9,9 +9,6 @@
 @import AdtalosSDK;
 @import UIKit;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow * window;
+@interface BannerAdViewController : UIViewController
 
 @end
-
