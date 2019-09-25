@@ -14,6 +14,8 @@
 		9BF9FB6F233AF25400980A7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BF9FB6E233AF25400980A7D /* Assets.xcassets */; };
 		9BF9FB72233AF25400980A7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF9FB70233AF25400980A7D /* LaunchScreen.storyboard */; };
 		9BF9FB75233AF25400980A7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9FB74233AF25400980A7D /* main.m */; };
+		9BF9FB7F233B8AC400980A7D /* NativeAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9FB7B233B8AC400980A7D /* NativeAdViewController.m */; };
+		9BF9FB80233B8AC400980A7D /* BannerAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9FB7E233B8AC400980A7D /* BannerAdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,10 @@
 		9BF9FB71233AF25400980A7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BF9FB73233AF25400980A7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BF9FB74233AF25400980A7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BF9FB7B233B8AC400980A7D /* NativeAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeAdViewController.m; sourceTree = "<group>"; };
+		9BF9FB7C233B8AC400980A7D /* NativeAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeAdViewController.h; sourceTree = "<group>"; };
+		9BF9FB7D233B8AC400980A7D /* BannerAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerAdViewController.h; sourceTree = "<group>"; };
+		9BF9FB7E233B8AC400980A7D /* BannerAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerAdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,10 @@
 		9BF9FB61233AF25300980A7D /* SDKDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9BF9FB7D233B8AC400980A7D /* BannerAdViewController.h */,
+				9BF9FB7E233B8AC400980A7D /* BannerAdViewController.m */,
+				9BF9FB7C233B8AC400980A7D /* NativeAdViewController.h */,
+				9BF9FB7B233B8AC400980A7D /* NativeAdViewController.m */,
 				9BF9FB62233AF25300980A7D /* AppDelegate.h */,
 				9BF9FB63233AF25300980A7D /* AppDelegate.m */,
 				9BF9FB68233AF25300980A7D /* ViewController.h */,
@@ -193,6 +203,8 @@
 			files = (
 				9BF9FB6A233AF25300980A7D /* ViewController.m in Sources */,
 				9BF9FB64233AF25300980A7D /* AppDelegate.m in Sources */,
+				9BF9FB7F233B8AC400980A7D /* NativeAdViewController.m in Sources */,
+				9BF9FB80233B8AC400980A7D /* BannerAdViewController.m in Sources */,
 				9BF9FB75233AF25400980A7D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
