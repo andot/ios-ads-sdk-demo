@@ -94,13 +94,13 @@
 
 - (void)button1Click:(UIButton *)button {
     BannerAdViewController *vc = [BannerAdViewController new];
-    vc.modalPresentationStyle = UIModalPresentationOverCurrentContext;
+    vc.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:vc animated:YES completion:nil];
 }
 
 - (void)button2Click:(UIButton *)button {
     NativeAdViewController *vc = [NativeAdViewController new];
-    vc.modalPresentationStyle = UIModalPresentationOverCurrentContext;
+    vc.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:vc animated:YES completion:nil];
 }
 

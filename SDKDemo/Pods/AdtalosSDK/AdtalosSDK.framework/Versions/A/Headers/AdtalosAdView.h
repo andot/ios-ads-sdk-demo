@@ -25,6 +25,7 @@
 - (void) show;
 - (void) render;
 - (void) impressionReport;
+- (void) autoRetry:(NSInteger)times;
 
 @end
 
