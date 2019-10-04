@@ -15,9 +15,12 @@
 @interface AdtalosAdView : UIView
 
 @property (nonatomic, assign) BOOL carouselModeEnabled;
+@property (nonatomic, copy) void(^closeEvent)(void);
+
 @property (getter=delegate, setter=setDelegate:) id<AdtalosListener> delegate;
 - (id<AdtalosListener>) delegate;
 - (void) setDelegate:(id<AdtalosListener>)delegate;
+- (NSMutableDictionary<NSString *, AdtalosCustomEvent> *) customEvents;
 - (AdtalosVideoController *) videoController;
 - (void) loadAd:(NSString *)adUnitId;
 - (void) loadAd:(NSString *)adUnitId autoShow:(BOOL)autoShow;

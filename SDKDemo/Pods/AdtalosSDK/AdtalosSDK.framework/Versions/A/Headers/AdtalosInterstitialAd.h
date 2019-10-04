@@ -24,6 +24,7 @@ typedef NS_ENUM(int, AdtalosAdType) {
 @property (getter=delegate, setter=setDelegate:) id<AdtalosListener> delegate;
 - (id<AdtalosListener>) delegate;
 - (void) setDelegate:(id<AdtalosListener>)delegate;
+- (NSMutableDictionary<NSString *, AdtalosCustomEvent> *) customEvents;
 @property (getter=videoDelegate, setter=setVideoDelegate:) id<AdtalosVideoListener> videoDelegate;
 - (id<AdtalosVideoListener>) videoDelegate;
 - (void) setVideoDelegate:(id<AdtalosVideoListener>)videoDelegate;

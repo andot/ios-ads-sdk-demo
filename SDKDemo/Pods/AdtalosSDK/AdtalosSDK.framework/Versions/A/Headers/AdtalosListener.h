@@ -9,6 +9,8 @@
 #ifndef AdtalosListener_h
 #define AdtalosListener_h
 
+typedef void (^AdtalosCustomEvent)(NSString *data);
+
 @protocol AdtalosListener <NSObject>
 
 @optional
@@ -21,11 +23,9 @@
 - (void) onAdLeftApplication;
 - (void) onAdOpened;
 - (void) onAdClosed;
+- (void) onAdCustomEvent:(NSString *)name withData:(NSString *)data;
 
 @end
-
-typedef void (^AdtalosDefaultCustomListener)(NSString *name, NSString *data);
-typedef void (^AdtalosCustomListener)(NSString *data);
 
 @protocol AdtalosVideoListener <NSObject>
 
