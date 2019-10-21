@@ -35,6 +35,7 @@ typedef NS_ENUM(int, AdtalosVideoMetadataStatus) {
 - (void) mute:(BOOL)mute;
 - (BOOL) isPlaying;
 - (BOOL) isEnded;
+@property (getter=metadata, readonly) NSDictionary *metadata;
 - (NSDictionary *) metadata;
 - (BOOL) hasVideo;
 
