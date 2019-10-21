@@ -37,7 +37,6 @@
     bannerAdView.delegate = self;
     [self.view addSubview:bannerAdView];
     
-    self.view.backgroundColor = [UIColor whiteColor];
     UIButton *closeButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     CGFloat x = ([UIScreen mainScreen].bounds.size.width - 100) / 2;
     CGFloat y = [UIScreen mainScreen].bounds.size.height - 100;

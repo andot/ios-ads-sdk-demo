@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		38E2C24201F9C615748804B2516B9698 /* AdtalosSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E7283F80780E510A94EA25D7CA5836F2 /* Build configuration list for PBXAggregateTarget "AdtalosSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = AdtalosSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		D8C1DD4E50378F73FD93C44D00F616FD /* Pods-SDKSwiftDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CB7987B4F579D0C7F0F263558D3540 /* Pods-SDKSwiftDemo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB33A7E393DA3CA71C8590FD8966AF91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38E2C24201F9C615748804B2516B9698;
+			remoteInfo = AdtalosSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		058401EBFC3F00E58893FEE375F56BB1 /* Pods-SDKSwiftDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SDKSwiftDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		05BF540B2EF3CB307075C8ACBEDD118B /* Pods-SDKSwiftDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SDKSwiftDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1B4DC9817762BF6D918222659CA26E45 /* AdtalosSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AdtalosSDK.xcconfig; sourceTree = "<group>"; };
+		3D2C887D08D7DAC534BAF8352FCD703C /* Pods-SDKSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDKSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		820E8EE31B28EEE6E06959DF9841B879 /* libPods-SDKSwiftDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SDKSwiftDemo.a"; path = "libPods-SDKSwiftDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3CB7987B4F579D0C7F0F263558D3540 /* Pods-SDKSwiftDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDKSwiftDemo-dummy.m"; sourceTree = "<group>"; };
+		C6A53CD9EAF21A5AC2686228F9DF313D /* Pods-SDKSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDKSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F3B7BBDC7729EEB49A0BB271806CAE42 /* AdtalosSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdtalosSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		575D7EC81045969B0A9D8561D4054AA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ACB2AAD97B025D2B5E3CDB02EF6946D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3FFEF5FE8245410ED95500BABB1A8FD /* AdtalosSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1E41ECFC532EBE3609BBECBF3D71D977 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3B7BBDC7729EEB49A0BB271806CAE42 /* AdtalosSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74E20AB013735B6D9EBF9D515C5C4B51 /* Pods-SDKSwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				05BF540B2EF3CB307075C8ACBEDD118B /* Pods-SDKSwiftDemo-acknowledgements.markdown */,
+				058401EBFC3F00E58893FEE375F56BB1 /* Pods-SDKSwiftDemo-acknowledgements.plist */,
+				A3CB7987B4F579D0C7F0F263558D3540 /* Pods-SDKSwiftDemo-dummy.m */,
+				3D2C887D08D7DAC534BAF8352FCD703C /* Pods-SDKSwiftDemo.debug.xcconfig */,
+				C6A53CD9EAF21A5AC2686228F9DF313D /* Pods-SDKSwiftDemo.release.xcconfig */,
+			);
+			name = "Pods-SDKSwiftDemo";
+			path = "Target Support Files/Pods-SDKSwiftDemo";
+			sourceTree = "<group>";
+		};
+		A3FFEF5FE8245410ED95500BABB1A8FD /* AdtalosSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1E41ECFC532EBE3609BBECBF3D71D977 /* Frameworks */,
+				ACD454A7BBFEB62429475BAA2050E902 /* Support Files */,
+			);
+			name = AdtalosSDK;
+			path = AdtalosSDK;
+			sourceTree = "<group>";
+		};
+		ACD454A7BBFEB62429475BAA2050E902 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B4DC9817762BF6D918222659CA26E45 /* AdtalosSDK.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AdtalosSDK";
+			sourceTree = "<group>";
+		};
+		B66EF8D9E14CD726A4D68DB18E5DF27E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				820E8EE31B28EEE6E06959DF9841B879 /* libPods-SDKSwiftDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				0ACB2AAD97B025D2B5E3CDB02EF6946D /* Pods */,
+				B66EF8D9E14CD726A4D68DB18E5DF27E /* Products */,
+				FAD9C588DF6A8453FACB851A346FDA19 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAD9C588DF6A8453FACB851A346FDA19 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74E20AB013735B6D9EBF9D515C5C4B51 /* Pods-SDKSwiftDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E382DF4123A2AE8CADF4959DC00F6A48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		537A9A254B5D30E0AD0CD2CEA570E941 /* Pods-SDKSwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA60E9C04BC7C9246512A02875DB1723 /* Build configuration list for PBXNativeTarget "Pods-SDKSwiftDemo" */;
+			buildPhases = (
+				E382DF4123A2AE8CADF4959DC00F6A48 /* Headers */,
+				6C28572545BA4F1561DB0C031C167FDD /* Sources */,
+				575D7EC81045969B0A9D8561D4054AA5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				294C8BFCDFCCE94C9E275D3400B7832B /* PBXTargetDependency */,
+			);
+			name = "Pods-SDKSwiftDemo";
+			productName = "Pods-SDKSwiftDemo";
+			productReference = 820E8EE31B28EEE6E06959DF9841B879 /* libPods-SDKSwiftDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B66EF8D9E14CD726A4D68DB18E5DF27E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38E2C24201F9C615748804B2516B9698 /* AdtalosSDK */,
+				537A9A254B5D30E0AD0CD2CEA570E941 /* Pods-SDKSwiftDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C28572545BA4F1561DB0C031C167FDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C1DD4E50378F73FD93C44D00F616FD /* Pods-SDKSwiftDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		294C8BFCDFCCE94C9E275D3400B7832B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AdtalosSDK;
+			target = 38E2C24201F9C615748804B2516B9698 /* AdtalosSDK */;
+			targetProxy = BB33A7E393DA3CA71C8590FD8966AF91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8C346E3AACB0AD09FB3F083DD5A9F4B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6A53CD9EAF21A5AC2686228F9DF313D /* Pods-SDKSwiftDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A87F537AF226D5AF325C1BBAF42F805F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D2C887D08D7DAC534BAF8352FCD703C /* Pods-SDKSwiftDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B165C674FDF88E987BE17153203E2700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B4DC9817762BF6D918222659CA26E45 /* AdtalosSDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE2155FA596BF5536D40D607F37FC5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B4DC9817762BF6D918222659CA26E45 /* AdtalosSDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA60E9C04BC7C9246512A02875DB1723 /* Build configuration list for PBXNativeTarget "Pods-SDKSwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A87F537AF226D5AF325C1BBAF42F805F /* Debug */,
+				8C346E3AACB0AD09FB3F083DD5A9F4B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7283F80780E510A94EA25D7CA5836F2 /* Build configuration list for PBXAggregateTarget "AdtalosSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2155FA596BF5536D40D607F37FC5BF /* Debug */,
+				B165C674FDF88E987BE17153203E2700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
