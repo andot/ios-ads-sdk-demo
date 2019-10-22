@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = AdtalosSDK;
+			productName = AdtalosSDK;
 		};
 /* End PBXAggregateTarget section */
 
@@ -37,8 +38,8 @@
 		05BF540B2EF3CB307075C8ACBEDD118B /* Pods-SDKSwiftDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SDKSwiftDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1B4DC9817762BF6D918222659CA26E45 /* AdtalosSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AdtalosSDK.xcconfig; sourceTree = "<group>"; };
 		3D2C887D08D7DAC534BAF8352FCD703C /* Pods-SDKSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDKSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		820E8EE31B28EEE6E06959DF9841B879 /* libPods-SDKSwiftDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SDKSwiftDemo.a"; path = "libPods-SDKSwiftDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		820E8EE31B28EEE6E06959DF9841B879 /* libPods-SDKSwiftDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDKSwiftDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3CB7987B4F579D0C7F0F263558D3540 /* Pods-SDKSwiftDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SDKSwiftDemo-dummy.m"; sourceTree = "<group>"; };
 		C6A53CD9EAF21A5AC2686228F9DF313D /* Pods-SDKSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SDKSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F3B7BBDC7729EEB49A0BB271806CAE42 /* AdtalosSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdtalosSDK.framework; sourceTree = "<group>"; };
@@ -90,7 +91,6 @@
 				1E41ECFC532EBE3609BBECBF3D71D977 /* Frameworks */,
 				ACD454A7BBFEB62429475BAA2050E902 /* Support Files */,
 			);
-			name = AdtalosSDK;
 			path = AdtalosSDK;
 			sourceTree = "<group>";
 		};
@@ -183,6 +183,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = B66EF8D9E14CD726A4D68DB18E5DF27E /* Products */;
