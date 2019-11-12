@@ -11,11 +11,16 @@ import AdtalosSDK
 
 class ViewController: UIViewController, AdtalosListener, AdtalosVideoListener {
     
-    var interstitialAd: AdtalosInterstitialAd?
-    var rewardedVideoAd: AdtalosRewardedVideoAd?
+    var interstitialAd: AdtalosInterstitialAd = AdtalosInterstitialAd("2EF810225D10260506CBB704C96C5325")
+    var rewardedVideoAd: AdtalosRewardedVideoAd = AdtalosRewardedVideoAd("4A11FDDB78AAAC06536DFDEA120CF5D0")
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        interstitialAd.delegate = self
+
+        rewardedVideoAd.delegate = self
+        rewardedVideoAd.videoDelegate = self
 
         view.backgroundColor = UIColor.white
         let x: CGFloat = (UIScreen.main.bounds.size.width - 160) / 2
@@ -78,16 +83,11 @@ class ViewController: UIViewController, AdtalosListener, AdtalosVideoListener {
     }
     
     @objc func button3Click() {
-        interstitialAd = AdtalosInterstitialAd("2EF810225D10260506CBB704C96C5325")
-        interstitialAd!.delegate = self
-        interstitialAd!.show()
+        interstitialAd.show()
     }
     
     @objc func button4Click() {
-        rewardedVideoAd = AdtalosRewardedVideoAd("4A11FDDB78AAAC06536DFDEA120CF5D0")
-        rewardedVideoAd!.delegate = self
-        rewardedVideoAd!.videoDelegate = self
-        rewardedVideoAd!.show()
+        rewardedVideoAd.show()
     }
     
     func onAdRendered() {
@@ -161,11 +161,5 @@ class ViewController: UIViewController, AdtalosListener, AdtalosVideoListener {
 
     func onVideoBreak() {
         NSLog("Adtalos onVideoBreak")
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        interstitialAd = nil
-        rewardedVideoAd = nil
     }
 }
