@@ -19,15 +19,11 @@ typedef NS_ENUM(int, AdtalosAdType) {
 
 @interface AdtalosInterstitialAd : NSObject
 
+@property (nonatomic, weak) id<AdtalosListener> delegate;
+@property (nonatomic, weak) id<AdtalosVideoListener> videoDelegate;
+@property (nonatomic, readonly) NSMutableDictionary<NSString *, AdtalosCustomEvent> *customEvents;
 - (instancetype) init:(NSString *)adUnitId;
 - (instancetype) init:(NSString *)adUnitId withAdType:(AdtalosAdType)adType;
-@property (getter=delegate, setter=setDelegate:) id<AdtalosListener> delegate;
-- (id<AdtalosListener>) delegate;
-- (void) setDelegate:(id<AdtalosListener>)delegate;
-- (NSMutableDictionary<NSString *, AdtalosCustomEvent> *) customEvents;
-@property (getter=videoDelegate, setter=setVideoDelegate:) id<AdtalosVideoListener> videoDelegate;
-- (id<AdtalosVideoListener>) videoDelegate;
-- (void) setVideoDelegate:(id<AdtalosVideoListener>)videoDelegate;
 - (BOOL) isLoaded;
 - (void) show;
 - (void) show:(long)timeout;

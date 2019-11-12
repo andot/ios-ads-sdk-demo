@@ -43,6 +43,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    interstitialAd = [[AdtalosInterstitialAd alloc] init:@"2EF810225D10260506CBB704C96C5325"];
+    interstitialAd.delegate = self;
+
+    rewardedVideoAd = [[AdtalosRewardedVideoAd alloc] init:@"4A11FDDB78AAAC06536DFDEA120CF5D0"];
+    rewardedVideoAd.delegate = self;
+    rewardedVideoAd.videoDelegate = self;
+
     self.view.backgroundColor = [UIColor whiteColor];
     CGFloat x = ([UIScreen mainScreen].bounds.size.width - 160) / 2;
     CGFloat y = [UIScreen mainScreen].bounds.size.height / 2;
@@ -105,15 +112,10 @@
 }
 
 - (void)button3Click:(UIButton *)button {
-    interstitialAd = [[AdtalosInterstitialAd alloc] init:@"2EF810225D10260506CBB704C96C5325"];
-    interstitialAd.delegate = self;
     [interstitialAd show];
 }
 
 - (void)button4Click:(UIButton *)button {
-    rewardedVideoAd = [[AdtalosRewardedVideoAd alloc] init:@"4A11FDDB78AAAC06536DFDEA120CF5D0"];
-    rewardedVideoAd.delegate = self;
-    rewardedVideoAd.videoDelegate = self;
     [rewardedVideoAd show];
 }
 
