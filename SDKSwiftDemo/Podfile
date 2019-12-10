@@ -1,3 +1,3 @@
 target 'SDKSwiftDemo' do
-  pod 'AdtalosSDK', '~> 1.2.4'
+  pod 'AdtalosSDK', '~> 1.3.0'
 end
