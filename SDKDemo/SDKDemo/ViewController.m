@@ -15,6 +15,7 @@
 
 - (void) onAdRendered;
 - (void) onAdImpressionFinished;
+- (void) onAdImpressionFailed;
 - (void) onAdImpressionReceivedError:(NSError *)error;
 - (void) onAdLoaded;
 - (void) onAdFailedToLoad:(NSError *)error;
@@ -125,6 +126,10 @@
 
 - (void) onAdImpressionFinished {
     NSLog(@"Adtalos onAdImpressionFinished");
+}
+
+- (void) onAdImpressionFailed {
+    NSLog(@"Adtalos onAdImpressionFailed");
 }
 
 - (void) onAdImpressionReceivedError:(NSError *)error {

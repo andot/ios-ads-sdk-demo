@@ -1,16 +1,16 @@
 PODS:
-  - AdtalosSDK (1.2.4)
+  - AdtalosSDK (1.3.0)
 
 DEPENDENCIES:
-  - AdtalosSDK (~> 1.2.4)
+  - AdtalosSDK (~> 1.3.0)
 
 SPEC REPOS:
   trunk:
     - AdtalosSDK
 
 SPEC CHECKSUMS:
-  AdtalosSDK: fd23afe497463425e036c941645470f17b28e918
+  AdtalosSDK: 020d54ac5b00e49191280185ddd8b8e3af05edda
 
-PODFILE CHECKSUM: 3d8ceb4353aad961e5060ccd6e4241d3f6a88cd2
+PODFILE CHECKSUM: 7254cec64b443ca8ce31d29f2cf6233de4aa38f2
 
 COCOAPODS: 1.8.1

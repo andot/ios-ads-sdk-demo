@@ -94,6 +94,10 @@ class ViewController: UIViewController, AdtalosListener, AdtalosVideoListener {
         NSLog("Adtalos onAdRendered")
     }
 
+    func onAdImpressionFailed() {
+        NSLog("Adtalos onAdImpressionFailed")
+    }
+
     func onAdImpressionFinished() {
         NSLog("Adtalos onAdImpressionFinished")
     }

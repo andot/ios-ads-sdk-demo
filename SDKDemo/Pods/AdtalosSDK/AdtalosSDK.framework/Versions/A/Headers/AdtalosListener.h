@@ -16,6 +16,7 @@ typedef void (^AdtalosCustomEvent)(NSString *data);
 @optional
 - (void) onAdRendered;
 - (void) onAdImpressionFinished;
+- (void) onAdImpressionFailed;
 - (void) onAdImpressionReceivedError:(NSError *)error;
 - (void) onAdLoaded;
 - (void) onAdFailedToLoad:(NSError *)error;
