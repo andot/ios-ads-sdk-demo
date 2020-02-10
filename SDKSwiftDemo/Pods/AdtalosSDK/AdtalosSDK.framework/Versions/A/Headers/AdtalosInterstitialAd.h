@@ -25,6 +25,7 @@ typedef NS_ENUM(int, AdtalosAdType) {
 - (instancetype) init:(NSString *)adUnitId;
 - (instancetype) init:(NSString *)adUnitId withAdType:(AdtalosAdType)adType;
 - (BOOL) isLoaded;
+- (void) loadAd;
 - (void) show;
 - (void) show:(long)timeout;
 - (void) autoRetry:(NSInteger)times;
